@@ -1,0 +1,22 @@
+Project Workspace Report
+
+Directory Structure:
+- docs
+- src
+- backup
+
+Permissions Applied:
+- docs: 700
+- src: 750
+- docs/readme.txt: 600
+- src/main.sh: 755
+
+Ownership:
+Verified using ls -l.
+
+Umask:
+(Output of the umask command)
+
+Observation:
+The workspace was created successfully. Permissions were set to restrict access appropriately. The umask command shows the default permissions used when creating new files and directories.
+
